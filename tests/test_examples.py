@@ -12,7 +12,7 @@ def test_add__floats():
     assert expected == approx(actual)
 
 def test_hypo():
-    # testdata: a=5, b=12, =13
+    # testdata: a=5, b=12, c=13
     expected = 13
     actual = hypo(5, 12)
     assert actual == expected
